@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Varela+Round&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #FF9494;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+   li {
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(240, 184, 184);
+  }
+  .active{
+    background-color: #ce6161;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+   
+ 
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .logo{ text-align: center;
+  }
+.photos{
+    text-align: center;
+}
+  .photos img{
+    width: 300px;
+    height: 400px;
+   margin-left: 15px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 0 0 5px 4px rgba(109, 114, 116, 0.5);
+  }
+
+    /* מגדיר עיצוב תמונות בדף ראשי  */
+  .photos img:hover{
+    width: 350px;
+    box-shadow: 0 0 5px 4px rgba(109, 114, 116, 0.5);
+  }
