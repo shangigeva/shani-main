@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Varela+Round&display=swap');
 
-body {
+.food {
     background-color: #FFF5E4;
     text-align: right;
     direction:rtl;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    font-size: 25px;
+ 
 }
   
   
@@ -21,7 +21,7 @@ body {
     font-size: 20px;
     color:#e2adad;
 }
-li{
+.ingredients li {
     border-bottom: 2px solid #FF9494;
     width: 700px; ;
     

@@ -6,17 +6,33 @@
 		<link rel="stylesheet" href="index.css"> 
 	 </head>
 
-	<body>
-		<ul>
-			<li><a  href="index.html">בית</a></li>
-			<li><a  class="active" href="crep.html">קרפ</a></li>    
-			<li><a    href="cookies.html">מלוחים</a></li>
+	<body class="food">
+		<ul class="nav">
+			<li><a  href="index.html">בית</a> </li>
+	
+			<li class="dropdown">
+				<a href="" class="dropbtn">מתוקים</a>
+				<div class="dropdown-content">
+				<a  href="crep.html">קרפ</a>
+				  <a href="cookies.html">עוגיות</a>
+				  <a href="cakes.html">עוגת מוס</a>
+				</div>
+			</li>
+			
+			<li class="dropdown">
+				<a href="" class="dropbtn">מלוחים</a>
+				<div class="dropdown-content">
+				<a  href="crep.html" class="active">קרפ</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>
+			  </li>
 			<li><a   href="about.html">אודות</a></li>
-		</ul>
+		   </ul>
 		<h1> קרפ צרפתי מתכון </h1>
 		<img class="crp" src="crep.jpeg"/>
 		<h2>מצרכים</h2>
-		<ul>
+		<ul class="ingredients">
 			<li >כוס קמח</li>
 			<li>כוס חלב</li>
 			<li>כף שמן</li>
