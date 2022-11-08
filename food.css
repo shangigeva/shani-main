@@ -18,12 +18,13 @@
     font-size: 50px;
   }
   p {
-    font-size: 20px;
+    font-size: 40px;
     color:#e2adad;
 }
 .ingredients li {
     border-bottom: 2px solid #FF9494;
     width: 700px; ;
+    font-size: 25px;
     
 }
 h2 {
@@ -48,4 +49,19 @@ h2 {
     width: 100x;
     height: 200x;
     transition: 1s; 
+  }
+
+  .pn {
+    font-size: 20px;
+    color:#FF9494;
+    letter-spacing: 5px;
+    text-align: center;
+    direction:ltr;
+
+  }
+ 
+  ol {
+    font-size: 25px;
+    
+
   }

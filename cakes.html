@@ -1,20 +1,38 @@
 <head>
     <title> מתכון לעוגת מוס הכי טעימה שתאכלו</title>
     <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
   
  </head>
 
-<body>
-    <ul>
-        <li><a  href="index.html">בית</a></li>
-        <li><a  class="active" href="cakes.html">מתוקים</a></li>    
-        <li><a    href="cookies.html">מלוחים</a></li>
+<body class="food">
+    <ul class="nav">
+        <li><a  href="index.html">בית</a> </li>
+
+        <li class="dropdown">
+            <a href="" class="dropbtn active">מתוקים</a>
+            <div class="dropdown-content">
+            <a  href="crep.html">קרפ</a>
+              <a href="cookies.html">עוגיות</a>
+              <a href="cakes.html">עוגת מוס</a>
+            </div>
+        </li>
+        
+        <li class="dropdown">
+            <a href="" class="dropbtn">מלוחים</a>
+            <div class="dropdown-content">
+            <a  href="crep.html" >קרפ</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
         <li><a   href="about.html">אודות</a></li>
-    </ul>
+       </ul>
     <h1> עוגת מוס מתכון </h1>
     <img src="birthdaycake.JPG"/>
     <h2>מצרכים</h2>
-    <ul>
+    <ul class="ingredients">
         <li>8 גרם ג׳לטין מושרה ברבע כוס מים </li>
         <li>300 גרם שוקולד חלב</li>
         <li>100 גרם שוקולד מריר</li>
@@ -36,14 +54,15 @@
     </ol>>
   
 
-
-    
-
-
 <p>בתאבון ותודה לכולם! אשמח שתשתפו אותי איך היה ותתייגו אותי בתוצאת <a href=" https://www.instagram.com/shanigevaa/" target="_blank">shanigevaa@</a></p>
-    
- </body>
+<nav class="pn">
+    <a href="cakes.html" class="active">1</a> |
+    <a href="crep.html">2</a> |
+    <a href="cookies.html">3</a> |
+   </nav>
 
+
+</body>
 
 
 </html>
